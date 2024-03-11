@@ -26,8 +26,6 @@ export default class Queue<T> {
 		if(!this.tail){
 
 			this.tail = this.head = node;
-			
-			return
 		}
 
 
