@@ -5,7 +5,10 @@ function qs(arr:number[], lo:number, hi:number):void{
 
 	const pivotIdx = partition(arr,lo,hi);
 
+	// left side
 	qs(arr,lo,pivotIdx - 1);
+
+	// right side
 	qs(arr,pivotIdx + 1, hi);
 
 }
