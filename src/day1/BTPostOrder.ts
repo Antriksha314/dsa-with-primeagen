@@ -16,7 +16,7 @@ function walk(curr: BinaryNode<number> | null, path: number[]): number[]{
     // post
     return path;
 }
-
+  
 
 
 export default function post_order_search(head: BinaryNode<number>): number[] {
